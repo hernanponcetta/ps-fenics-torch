@@ -4,11 +4,11 @@
 
 `cd ps-fenics-torch`
 
-`docker build -t gmg-top-opt .`
+`docker build -t ps-fenics-torch .`
 
-`docker run -it --name="gmg-top-opt" gmg-top-opt`
+`docker run -it --name="ps-fenics-torch" ps-fenics-torch`
 
-Luego, a modo de ejemplo, para ejecutar 2d_example.py:
+Luego, por ejemplo, para ejecutar 2d_example.py:
 
 `cd 2d_example`
 
