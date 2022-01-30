@@ -1,0 +1,9 @@
+[submodule "2d_example/msh2xdmf"]
+	path = 2d_example/msh2xdmf
+	url = https://github.com/hernanponcetta/msh2xdmf.git
+[submodule "3d_example/msh2xdmf"]
+	path = 3d_example/msh2xdmf
+	url = https://github.com/hernanponcetta/msh2xdmf.git
+[submodule "3d_crank/msh2xdmf"]
+	path = 3d_crank/msh2xdmf
+	url = https://github.com/hernanponcetta/msh2xdmf.git
