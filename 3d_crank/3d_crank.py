@@ -7,9 +7,9 @@ import torch.optim as optim
 
 from msh2xdmf.msh2xdmf import import_mesh
 
-from top_optimizer_nn import TopOptimizerNN
-from top_opt_loss import TopOptLoss
-from utils import create_mid_points, create_time_stamp
+from nn.top_optimizer_nn import TopOptimizerNN
+from nn.top_opt_loss import TopOptLoss
+from utils.utils import create_mid_points, create_time_stamp
 
 # Start time for optimization
 start = time.time()
@@ -25,7 +25,7 @@ xdmf = XDMFFile("output/{ts}/density.xdmf".format(ts=create_time_stamp()))
 
 # Parameters
 # Relation between original volume and target volume
-volume_fraction = 0.5
+volume_fraction = 0.3
 
 # Penalty parameter for density
 penal = 3

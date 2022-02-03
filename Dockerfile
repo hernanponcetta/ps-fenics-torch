@@ -25,8 +25,14 @@ RUN pip install numpy==1.22.1
 RUN pip3 install torch==1.10.1
 
 # Meshio
-RUN pip3 install meshio --user
+RUN pip3 install meshio==4.4.6
 
+# Pytest
+RUN pip install -U pytest
+
+# h5py
+RUN pip install h5py
+RUN pip install pytest-mpi
 # RUN pip3 install --no-binary=h5py h5py --user
 
 # Code formater
