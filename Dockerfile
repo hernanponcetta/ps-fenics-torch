@@ -31,9 +31,7 @@ RUN pip3 install meshio==4.4.6
 RUN pip install -U pytest
 
 # h5py
-RUN pip install h5py
-RUN pip install pytest-mpi
-# RUN pip3 install --no-binary=h5py h5py --user
+RUN pip install h5py==2.10.0
 
 # Code formater
 RUN pip3 install autopep8
