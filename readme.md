@@ -16,9 +16,9 @@ Un vez instalado Docker se puden ejecutar los ejemplos de la siguiente manera:
 
 Luego, por ejemplo, para ejecutar 2d_example.py:
 
-`cd 2d_example`
+`cd wheel_opt`
 
-`python3 2d_example.py`
+`python3 wheel_opt.py`
 
 Para salir y remover el contanedor:
 
